@@ -1,0 +1,19 @@
+---
+title: "College Data"
+author: "Thomas Schechter"
+date: "8/11/2021"
+output: pdf_document
+---
+
+```{r}
+library(pacman)
+p_load(tidyverse,data.table)
+```
+
+```{r}
+uni_data <- read_csv("Colleges_and_Universities.csv")
+```
+```{r}
+
+```
+
